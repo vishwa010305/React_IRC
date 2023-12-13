@@ -1,0 +1,122 @@
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ce800a;
+    max-height: 50%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 7px 7px 10px 3px #24004628;
+    background-size: 10%;
+    border-left: 55cm;
+    border-right:55cm;
+    margin-top: 20cm;
+    margin-inline: 10%;
+    margin-bottom: 20cm;
+    
+    
+    
+  } 
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+  }
+  
+  /*checkbox to switch from sign up to login*/
+  #chk {
+    display: flex;
+  }
+  
+  /*Login*/
+  .login {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6cm;
+    padding-right: 25cm;
+    padding-top: 0cm;
+    
+    
+  }
+  
+  .login label {
+    margin: 50% 0 20%;
+  }
+  
+  label {
+    color: #4807af;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  
+  .input {
+    width: 100%;
+    height: 40px;
+    background: #e0dede;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  /*Register*/
+  .register {
+    background: #eee;
+    border-radius: 550% / 200%;
+    transform: translateY(5%);
+    transition: .8s ease-in-out;
+    padding-left:10cm ;
+    padding-right: 10cm;
+    padding-top: 5%;
+    border-left: 10%;
+    border-right: 10%;
+    padding-block-start: 10%;
+    
+  }
+  
+  .register label {
+    color: #573b8a;
+    transform: scale(1.5);
+    gap: 15px;
+  }
+  
+  #chk:checked ~ .register {
+    transform: translateY(-40%);
+  }
+  
+  #chk:checked ~ .register label {
+    transform: scale(1);
+    margin: 20% 0 1%;
+  }
+  
+  #chk:checked ~ .login label {
+    transform: scale(1.5);
+    margin: 20% 0 1%;
+  }   
+  /*Button*/
+  .form button {
+    width: 55%;
+    height: 40px;
+    margin: 10px auto 10%;
+    color: #fff;
+    background: #60313b;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .2s ease-in;
+  }
+  
+  .form button:hover {
+    background-color: #0c7ac4;
+  }
