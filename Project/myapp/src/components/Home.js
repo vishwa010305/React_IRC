@@ -1,5 +1,5 @@
 import '../components/Home.css';
-const Home =()=>{
+const Home =()=>{ 
     return(
         <>
         <form className="cont">
@@ -23,7 +23,7 @@ const Home =()=>{
         </form>
         <form className='fav'>
             <ul>
-                <li className='fav'><img src="https://www.funcorp.in/cdn/shop/files/Baby_Alive_090523_940x.jpg?v=1683629088"/></li>
+                {/* <li className='fav'><img src="https://www.funcorp.in/cdn/shop/files/Baby_Alive_090523_940x.jpg?v=1683629088"/></li> */}
                 <li className='fav'><img src="https://www.funcorp.in/cdn/shop/files/Beyblade_burst_quaddrive_090523_940x.jpg?v=1683629088"/></li>
             </ul>
         </form>

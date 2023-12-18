@@ -8,7 +8,7 @@ import Home from './components/Home.js';
 import Login_SignUp from './components/Login_SignUp.jsx';
 
 
-function App() {
+function App() { 
   return (
     <>
     <Nav/>

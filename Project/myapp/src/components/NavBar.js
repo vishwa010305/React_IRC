@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../assets/css/Nav.css';
 
 
-const Nav = () => {
+const Nav = () => { 
     return (
         <>
             <div className='nav'>
